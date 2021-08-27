@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "js-flasher",
+    "description": "Flash a CHIP from javascript"
+  },
+  "appDescription": {
+    "message": "CHIP Flasher",
+    "description": "Flash a CHIP from javascript"
+  }
+}
