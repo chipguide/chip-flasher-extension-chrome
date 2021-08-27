@@ -1,17 +1,22 @@
-# CHIP-flasher-chromeplugin
+## CHIP Flash extension 
 
-Getting custom software onto hardware is hard. Particularly if you want people to be able to modify, change, and share that software. It can be as easy visiting a web page, connecting our devices, and loading our customized versions.
+This is the original CHIP Flash extension that can be used to flash `.chp` images to your CHIP offline.
 
-[flash.getchip.com](http://flash.getchip.com) uses the [C.H.I.P. Flasher chrome-plugin](https://chrome.google.com/webstore/detail/chip-flasher/bpohdfcdfghdcgflomadkij)
+To use this extension, you'll need to load the "C.H.I.P. Flasher extension" directory as an _Unpacked extension_ in Chrome (or Chromium).
 
+### 1. Navigate to `chrome://extensions/`
+### 2. Enable "Developer mode" at the top right
+### 3. Click "Load unpakced" at the top left
+### 4. Browse to your "C.H.I.P. Flasher extension" directory and open it
 
-![image](http://blog.ii.delivery/content/images/2017/01/CHIP-Flasher-Plugin-window.png)
+![extension](screenshots/extension.png)
 
-Most AllWinner [boot roms](http://linux-sunxi.org/BROM) detect when a uboot pin is connected to ground. This forces the devices into [FEL mode](http://linux-sunxi.org/FEL) to support flashing. On the [C.H.I.P.](https://getchip.com/pages/chip), a physical paperclip is used to short the uboot/FEL pin.
+Once the extension is installed, you will find it in the _Apps_ launcher in Chrome `chrome://apps/`.
 
-![image](http://flash.getchip.com/images/step1.gif)
+![flashing](screenshots/flashing.png)
 
-![Success!](ii_flasher_success.png)
+Click the "CHIP Flasher" icon and follow the instructions.
 
-NextThingCo doesn't seem to publish the source to this, but I think it would be
-useful to have a readable and modifiable version.
+![complete](screenshots/complete.png)
+
+You can download `.chp` images from here: [http://chip.jfpossibilities.com/flash-chrome/](http://chip.jfpossibilities.com/flash-chrome/)
